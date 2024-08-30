@@ -29,7 +29,7 @@ function Contact() {
         <div className="flex flex-col justify-center items-center mt-5">
           <form 
           onSubmit={handleSubmit(onSubmit)}
-          // action="https://getform.io/f/apjmvnza" method="POST"
+          action="https://getform.io/f/apjmvnza" method="POST"
            className="bg-slate-200 w-96 px-8 py-6 rounded-xl">
             <h2 className="mb-4 text-xl font-semibold">Send Your Message</h2>
             <div className="flex flex-col mb-4">
